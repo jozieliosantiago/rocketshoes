@@ -6,6 +6,10 @@ export const Container = styled.header`
   justify-content: space-between;
   align-items: center;
   margin: 50px 0;
+
+  @media (max-width: 500px) {
+    display: block;
+  }
 `;
 
 export const Cart = styled(Link)`
@@ -31,5 +35,10 @@ export const Cart = styled(Link)`
       font-size: 12px;
       color: #999;
     }
+  }
+
+  @media (max-width: 500px) {
+    margin-top: 30px;
+    justify-content: flex-end;
   }
 `;

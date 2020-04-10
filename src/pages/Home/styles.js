@@ -16,7 +16,7 @@ export const ProductList = styled.ul`
 
     img {
       align-self: center;
-      max-width: 250px;
+      max-width: 90%;
     }
 
     > strong {
@@ -64,5 +64,17 @@ export const ProductList = styled.ul`
         font-weight: bold;
       }
     }
+  }
+
+  @media (max-width: 500px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  @media (min-width: 501px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 720px) {
+    grid-template-columns: repeat(3, 1fr);
   }
 `;
