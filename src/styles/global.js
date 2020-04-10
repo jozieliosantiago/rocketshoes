@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import Roboto from '../fonts/Roboto-Regular.ttf';
+import 'react-toastify/dist/ReactToastify.css';
 
 import background from '../assets/images/background.svg';
 
