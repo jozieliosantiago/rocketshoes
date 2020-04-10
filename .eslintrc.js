@@ -44,5 +44,7 @@ module.exports = {
     'react/state-in-constructor': 'off',
     'react/static-property-placement': 'off',
     'no-param-reassign': 'off',
+    "react/forbid-prop-types": 0,
+    'jsx-a11y/control-has-associated-label': 'off',
   }
 };
