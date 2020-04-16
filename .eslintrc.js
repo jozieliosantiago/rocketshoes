@@ -22,7 +22,8 @@ module.exports = {
   },
   'plugins': [
     'react',
-    'prettier'
+    'prettier',
+    'react-hooks'
   ],
   'rules': {
     'prettier/prettier': 'error',
@@ -46,5 +47,7 @@ module.exports = {
     'no-param-reassign': 'off',
     "react/forbid-prop-types": 0,
     'jsx-a11y/control-has-associated-label': 'off',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   }
 };
