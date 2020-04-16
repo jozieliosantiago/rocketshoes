@@ -22,7 +22,9 @@ Dentro da pasta do projeto execute:
 ```bash
 yarn json-server -p 3333
 ```
-*Na versão mobile um container docker foi criado para ser usado como server da aplicação. Um vez em execução o server poderá ser usado para ambas as aplicações. A explicação da execução do server pode ser encontrada no **README** da versão mobile nesse [link](https://github.com/jozieliosantiago/rocketshoes-mobile)*
+*Na versão mobile um container docker foi criado para ser usado como server da aplicação. Um vez em execução o server poderá ser usado para ambas as aplicações. A explicação da execução do server pode ser encontrada no **README** da versão mobile nesse [link](https://github.com/jozieliosantiago/rocketshoes-mobile)*.
+
+*Em caso de escolha pelo uso do container docker a baseUrl: http://localhost:3333 definida no arquivo ***api.js*** contido na pasta **services** deve ser alterada para http://localhost:3333/api*.
 
 Em outro terminal, ainda dentro da pasta do projeto, execute:
 
